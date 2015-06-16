@@ -510,7 +510,7 @@
 				GENERATE_PKGINFO_FILE = YES;
 				INFOPLIST_FILE = "mda-info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Audio/Plug-Ins/Components";
-				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_REZFLAGS = "-append -d ppc_$ppc -d i386_$i386 -d x86_64_$x86_64 -d ppc64_$ppc64";
 				PRODUCT_NAME = mda;
 				REZ_SEARCH_PATHS = (
@@ -552,7 +552,7 @@
 				GENERATE_PKGINFO_FILE = YES;
 				INFOPLIST_FILE = "mda-info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Audio/Plug-Ins/Components";
-				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_REZFLAGS = "-append -d ppc_$ppc -d i386_$i386 -d x86_64_$x86_64 -d ppc64_$ppc64";
 				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
 				PRODUCT_NAME = mda;
