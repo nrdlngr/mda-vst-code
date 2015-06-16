@@ -69,7 +69,7 @@ private:
 #pragma mark -
 
 //--------------------------------------------------------------------------------
-COMPONENT_ENTRY(SubSynth)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, SubSynth)
 
 //--------------------------------------------------------------------------------
 SubSynth::SubSynth(AudioComponentInstance inComponentInstance)

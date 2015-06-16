@@ -74,7 +74,7 @@ private:
 #pragma mark -
 
 //--------------------------------------------------------------------------------
-COMPONENT_ENTRY(RePsycho)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, RePsycho)
 
 //--------------------------------------------------------------------------------
 RePsycho::RePsycho(AudioComponentInstance inComponentInstance)

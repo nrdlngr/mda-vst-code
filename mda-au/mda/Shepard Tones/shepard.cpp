@@ -49,7 +49,7 @@ private:
 
 
 //--------------------------------------------------------------------------------
-COMPONENT_ENTRY(Shepard)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, Shepard)
 
 //--------------------------------------------------------------------------------
 Shepard::Shepard(AudioComponentInstance inComponentInstance)

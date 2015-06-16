@@ -56,7 +56,7 @@ private:
 
 
 //--------------------------------------------------------------------------------
-COMPONENT_ENTRY(Stereo)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, Stereo)
 
 //--------------------------------------------------------------------------------
 Stereo::Stereo(AudioComponentInstance inComponentInstance)

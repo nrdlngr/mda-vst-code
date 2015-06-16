@@ -47,7 +47,7 @@ private:
 #pragma mark -
 
 //--------------------------------------------------------------------------------
-COMPONENT_ENTRY(Ring)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, Ring)
 
 //--------------------------------------------------------------------------------
 Ring::Ring(AudioComponentInstance inComponentInstance)

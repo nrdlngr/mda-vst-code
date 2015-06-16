@@ -81,7 +81,7 @@ void lpc_durbin(float *r, int p, float *k, float *g);
 
 #pragma mark -
 
-COMPONENT_ENTRY(Talkbox)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, Talkbox)
 
 
 Talkbox::Talkbox(AudioComponentInstance component) : AUEffectBase(component, true)

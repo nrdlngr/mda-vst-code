@@ -65,7 +65,7 @@ private:
 #pragma mark -
 
 //--------------------------------------------------------------------------------
-COMPONENT_ENTRY(Degrade)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, Degrade)
 
 //--------------------------------------------------------------------------------
 Degrade::Degrade(AudioComponentInstance inComponentInstance)

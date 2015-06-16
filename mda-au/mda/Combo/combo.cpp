@@ -48,7 +48,7 @@ private:
 };
 
 
-COMPONENT_ENTRY(Combo)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, Combo)
 
 Combo::Combo(AudioComponentInstance inComponentInstance) : AUEffectBase(inComponentInstance)
 {

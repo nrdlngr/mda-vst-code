@@ -52,7 +52,7 @@ protected:
 };
 
 
-COMPONENT_ENTRY(TestTone)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, TestTone)
 
 
 TestTone::TestTone(AudioComponentInstance component) : AUEffectBase(component)

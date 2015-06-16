@@ -78,7 +78,7 @@ private:
 #pragma mark -
 
 //--------------------------------------------------------------------------------
-COMPONENT_ENTRY(Tracker)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, Tracker)
 
 //--------------------------------------------------------------------------------
 Tracker::Tracker(AudioComponentInstance inComponentInstance)

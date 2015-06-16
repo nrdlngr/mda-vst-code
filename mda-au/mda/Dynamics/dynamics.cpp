@@ -43,7 +43,7 @@ private:
 };
 
 
-COMPONENT_ENTRY(Dynamics)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, Dynamics)
 
 
 Dynamics::Dynamics(AudioComponentInstance inComponentInstance) : AUEffectBase(inComponentInstance)

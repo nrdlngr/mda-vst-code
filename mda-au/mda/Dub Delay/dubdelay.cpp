@@ -72,7 +72,7 @@ private:
 #pragma mark -
 
 //--------------------------------------------------------------------------------
-COMPONENT_ENTRY(DubDelay)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, DubDelay)
 
 //--------------------------------------------------------------------------------
 DubDelay::DubDelay(AudioComponentInstance inComponentInstance)

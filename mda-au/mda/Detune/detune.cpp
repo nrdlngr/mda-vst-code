@@ -81,7 +81,7 @@ private:
 #pragma mark -
 
 //--------------------------------------------------------------------------------
-COMPONENT_ENTRY(Detune)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, Detune)
 
 //--------------------------------------------------------------------------------
 Detune::Detune(AudioComponentInstance inComponentInstance)

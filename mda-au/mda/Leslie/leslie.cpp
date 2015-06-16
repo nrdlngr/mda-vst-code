@@ -94,7 +94,7 @@ private:
 #pragma mark -
 
 //--------------------------------------------------------------------------------
-COMPONENT_ENTRY(Leslie)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, Leslie)
 
 //--------------------------------------------------------------------------------
 Leslie::Leslie(AudioComponentInstance inComponentInstance)
