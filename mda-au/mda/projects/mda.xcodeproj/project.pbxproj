@@ -71,6 +71,8 @@
 		B0A9F97C0A9BF68300502DE8 /* stereo.r in Rez */ = {isa = PBXBuildFile; fileRef = B0FA2BEB0A221C1D000A84DD /* stereo.r */; };
 		B0FA2BEE0A221C26000A84DD /* subsynth.r in Rez */ = {isa = PBXBuildFile; fileRef = B0FA2BED0A221C26000A84DD /* subsynth.r */; };
 		B0FA2BFE0A221C7F000A84DD /* subsynth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA2BFD0A221C7F000A84DD /* subsynth.cpp */; };
+		D7DE7EA11B307D8000EF840F /* AUPlugInDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7DE7E9F1B307D8000EF840F /* AUPlugInDispatch.cpp */; };
+		D7DE7EA21B307D8000EF840F /* AUPlugInDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DE7EA01B307D8000EF840F /* AUPlugInDispatch.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,6 +144,8 @@
 		B0FA2BFB0A221C78000A84DD /* stereo.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = stereo.cpp; path = ../Stereo/stereo.cpp; sourceTree = "<group>"; };
 		B0FA2BFD0A221C7F000A84DD /* subsynth.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = subsynth.cpp; path = ../SubSynth/subsynth.cpp; sourceTree = "<group>"; };
 		B0FA2CDB0A221E66000A84DD /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		D7DE7E9F1B307D8000EF840F /* AUPlugInDispatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AUPlugInDispatch.cpp; path = ../../../../../../../../../Library/Developer/CoreAudio/AudioUnits/AUPublic/AUBase/AUPlugInDispatch.cpp; sourceTree = "<group>"; };
+		D7DE7EA01B307D8000EF840F /* AUPlugInDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AUPlugInDispatch.h; path = ../../../../../../../../../Library/Developer/CoreAudio/AudioUnits/AUPublic/AUBase/AUPlugInDispatch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +275,8 @@
 		49142E0D06C56A87005EBD00 /* AUBase */ = {
 			isa = PBXGroup;
 			children = (
+				D7DE7E9F1B307D8000EF840F /* AUPlugInDispatch.cpp */,
+				D7DE7EA01B307D8000EF840F /* AUPlugInDispatch.h */,
 				49142E0F06C56A87005EBD00 /* AUBase.h */,
 				49142E0E06C56A87005EBD00 /* AUBase.cpp */,
 				49142E1106C56A87005EBD00 /* AUDispatch.h */,
@@ -326,6 +332,7 @@
 			files = (
 				49142E0406C56A5D005EBD00 /* CAMath.h in Headers */,
 				49142E0806C56A68005EBD00 /* CAAudioChannelLayout.h in Headers */,
+				D7DE7EA21B307D8000EF840F /* AUPlugInDispatch.h in Headers */,
 				49142E0C06C56A73005EBD00 /* CAStreamBasicDescription.h in Headers */,
 				49142E3106C56A87005EBD00 /* AUBase.h in Headers */,
 				49142E3306C56A87005EBD00 /* AUDispatch.h in Headers */,
@@ -371,9 +378,15 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = B0765F7D08C5389B00EA1425 /* Build configuration list for PBXProject "mda" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* crazyivan */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -450,6 +463,7 @@
 				B0765F7608C5389B00EA1425 /* CAVectorUnit.cpp in Sources */,
 				B0765FD908C556B600EA1425 /* repsycho.cpp in Sources */,
 				B0FA2BFE0A221C7F000A84DD /* subsynth.cpp in Sources */,
+				D7DE7EA11B307D8000EF840F /* AUPlugInDispatch.cpp in Sources */,
 				B0A9F97B0A9BF67C00502DE8 /* stereo.cpp in Sources */,
 				B07F35230B9C8F3A00DB2325 /* CAAUParameter.cpp in Sources */,
 			);
@@ -511,8 +525,7 @@
 		B0765F7B08C5389B00EA1425 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEPLOYMENT_LOCATION = YES;
